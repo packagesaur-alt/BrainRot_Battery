@@ -1,6 +1,6 @@
-# Batfi - Advanced Battery Monitor
+# BrainRot_Battery - Advanced Battery Monitor
 
-🔋 **Batfi** is an advanced battery monitoring tool for Linux with accurate time estimation and beautiful terminal interface.
+🔋 **BrainRot_Battery** is an advanced battery monitoring tool for Linux with accurate time estimation and beautiful terminal interface.
 
 ## Features
 
@@ -35,15 +35,7 @@
 
 ### From AUR (Arch Linux)
 ```bash
-yay -S batfi
+yay -S BrainRot_Battery
 # or
-paru -S batfi
-```
-
-### From Source
-```bash
-git clone https://github.com/username/batfi
-cd batfi
-cargo build --release
-sudo cp target/release/batfi /usr/local/bin/
+paru -S BrainRot_Battery
 ```
