@@ -1,0 +1,18 @@
+[package]
+name = "batfi"
+version = "2.0.0"
+edition = "2021"
+description = "Advanced battery monitoring tool with accurate time estimation"
+license = "MIT"
+repository = "https://github.com/username/batfi"
+keywords = ["battery", "monitoring", "power", "linux"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+
+[[bin]]
+name = "batfi"
+path = "main.rs"

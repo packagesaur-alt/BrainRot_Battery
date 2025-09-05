@@ -1,0 +1,7 @@
+/target
+Cargo.lock
+*.tar.gz
+*.pkg.tar.xz
+pkg/
+src/
+*.log
