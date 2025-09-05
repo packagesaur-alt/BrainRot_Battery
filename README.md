@@ -35,7 +35,7 @@
 
 ### From AUR (Arch Linux)
 ```bash
-yay -S BrainRot_Battery
+yay -S brainrot-battery
 # or
-paru -S BrainRot_Battery
+paru -S brainrot-battery
 ```
